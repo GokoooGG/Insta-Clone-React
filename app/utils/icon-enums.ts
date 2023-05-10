@@ -1,0 +1,3 @@
+export enum ICONS {
+    reels = "reels",homeInsta = "home-insta",likeHearFill = "like-heart-fill",likeHeart = "like-heart",search = "search",send = "send",history = "history",comment = "comment",add = "add",bookmark1 = "bookmark1",bookmark = "bookmark",list = "list",chevronRight = "chevron-right",chevronLeft = "chevron-left",arrowLeft = "arrow-left",camera = "camera",chevronDown = "chevron-down",chevronUp = "chevron-up",info = "info",alertTriangle = "alert-triangle"
+  }
