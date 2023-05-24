@@ -9,6 +9,7 @@ import { useFocusEffect } from '@react-navigation/native';
 import React, { useCallback, useLayoutEffect, useState } from 'react';
 import { Pressable } from 'react-native';
 import { padding } from '../../theme/Config';
+import Stories from '@/components/Stories';
 
 const HomePage = ({ navigation }: any) => {
     const dispatch = useAppDispatch();
@@ -67,9 +68,9 @@ const HomePage = ({ navigation }: any) => {
 
     return (
         <React.Fragment>
-            <AppScreen scroll>
-                <Block bg-primary>
-                    <Text>asdasd</Text>
+            <AppScreen bg-white scroll>
+                <Block >
+                    <Stories/>
                 </Block>
             </AppScreen>
         </React.Fragment>

@@ -27,6 +27,7 @@ export const Header: FC<any> = ({navigationOptions, navigation}) => {
         ...FONTS.title,
         color: colors.headerColor,
       },
+      
       headerTitleAlign: 'center',
       headerLeft: (props: any) => (
         <BackButton props={props} navigation={navigation} />
